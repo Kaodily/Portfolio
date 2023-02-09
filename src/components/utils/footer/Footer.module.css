@@ -1,0 +1,12 @@
+.footer{
+    height: 200px;
+
+    background-color: yellow;
+}
+.list{
+    list-style: none;
+}
+.social{
+    list-style: none;
+    display: flex;
+}

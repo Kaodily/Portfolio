@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+.list_items{
+
+}
