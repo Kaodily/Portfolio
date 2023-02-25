@@ -1,12 +1,22 @@
 .footer{
-    height: 200px;
-
-    background-color: yellow;
+    max-height: 300px;
+    text-align: center;
+    background-color: #6D6B6B;
+    padding: 40px 0;
 }
 .list{
-    list-style: none;
+    list-style: none; 
+}
+.list li{
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 .social{
     list-style: none;
     display: flex;
+    justify-content: center;
+}
+.social li{
+    margin-right: 10px;
 }

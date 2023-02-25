@@ -12,9 +12,9 @@ const Footer = () => {
         <li>Contact me</li>
     </ul>
 <ul className={classes.social}>
-    <li><AiFillGithub /></li>
-    <li><AiFillTwitterCircle /></li>
-    <li><AiFillLinkedin /></li>
+    <li><AiFillGithub  fontSize="1.3rem" /></li>
+    <li><AiFillTwitterCircle  fontSize="1.3rem"/></li>
+    <li><AiFillLinkedin fontSize="1.3rem" /></li>
 </ul>
     </footer>
   )

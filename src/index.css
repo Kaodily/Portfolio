@@ -3,9 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* body{
-  padding: 30px 25px 20px 15px;
-} */
+body{
+background-color: #969494;
+font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
