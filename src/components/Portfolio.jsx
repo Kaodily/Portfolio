@@ -1,14 +1,16 @@
 import React from 'react'
 import Header from './utils/header/Header'
 import About from './home/about/About'
-import Skills from './home/skills/Skills'
+import Services from './home/service/Services'
+import Projects from './home/projects/Projects'
 
 const Portfolio = () => {
   return (
     <div>
         <Header />
         <About />
-        <Skills />
+        <Services />
+        <Projects />
     </div>
   )
 }
