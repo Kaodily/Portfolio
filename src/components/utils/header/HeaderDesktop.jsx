@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HeaderDesktopWrapper } from "./header.styled";
+import { HeaderDesktopWrapper } from "../../../styles/header.styled";
 // import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 const HeaderDesktop = () => {

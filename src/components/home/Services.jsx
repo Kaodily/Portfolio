@@ -1,6 +1,6 @@
 import React from "react";
-import { ServiceWrapper } from "./services.styled";
-import Button from "../../utils/button/Button";
+import Button from "../utils/Button";
+import { ServiceWrapper } from "../../styles/componentsStyles/services.styled";
 
 const Services = () => {
   const service = ["Development", "Technical Writing", "Content & SEO"];

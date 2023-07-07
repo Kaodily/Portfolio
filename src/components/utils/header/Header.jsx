@@ -1,7 +1,8 @@
 import React from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { HeaderWrapper } from "./header.styled";
+// import { HeaderWrapper } from "./header.styled";
 import HeaderDesktop from "./HeaderDesktop";
+import { HeaderWrapper } from "../../../styles/header.styled";
 
 const Header = () => {
   return (

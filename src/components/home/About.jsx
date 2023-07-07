@@ -1,7 +1,7 @@
 import React from "react";
-import { AboutWrapper } from "./about.styled";
-import hero from "../../../assets/hero.jpg";
-import Button from "../../utils/button/Button";
+import hero from "../../assets/hero.jpg";
+import { AboutWrapper } from "../../styles/componentsStyles/about.styled";
+import Button from "../utils/Button";
 const About = () => {
   return (
     <AboutWrapper>

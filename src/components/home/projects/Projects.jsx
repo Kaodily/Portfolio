@@ -1,11 +1,12 @@
 import React from "react";
 import Project from "./Project";
-import { ProjectsWrapper } from "./project.styled";
 import audiophile from "../../../assets/audiophile.png";
 import country from "../../../assets/country.png";
 import starfinder from "../../../assets/starfinder.png";
 import rock from "../../../assets/rock-paper-scissors.png";
 import portfolio from "../../../assets/portfolio.png";
+import task from '../../../assets/task-manager.png'
+import { ProjectsWrapper } from "../../../styles/componentsStyles/project.styled";
 const Projects = () => {
   return (
     <ProjectsWrapper>
@@ -20,6 +21,15 @@ const Projects = () => {
       />
       <Project
         image={starfinder}
+        name={"STARFINDER"}
+        live={"https://starfinder.dev/"}
+        github={"https://github.com/workshopapps/vipcustomer.web"}
+        description={
+          "An app that offers a VIP notification feature that alerts you when a high-profile user engages with your app. This valuable feature allows you to keep track of VIP activity and respond promptly to their needs, enhancing the overall user experience. "
+        }
+      />
+      <Project
+        image={task}
         name={"STARFINDER"}
         live={"https://starfinder.dev/"}
         github={"https://github.com/workshopapps/vipcustomer.web"}

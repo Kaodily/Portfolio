@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectWrapper } from "./project.styled";
+import { ProjectWrapper } from "../../../styles/componentsStyles/project.styled";
 
 const Project = ({ image, description, live, github, name }) => {
   return (

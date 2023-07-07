@@ -1,12 +1,13 @@
 import React from "react";
+import { ButtonStyled, ButtonWrapper } from "../../styles/button.styled";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import { ButtonStyled, ButtonWrapper } from "./button.styled";
+
 
 const Button = ({content}) => {
   return (
     <ButtonWrapper>
       <ButtonStyled>
-      {content}
+        {content}
         <FaLongArrowAltRight />
       </ButtonStyled>
     </ButtonWrapper>
