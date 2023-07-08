@@ -9,7 +9,7 @@ import task from '../../../assets/task-manager.png'
 import { ProjectsWrapper } from "../../../styles/componentsStyles/project.styled";
 const Projects = () => {
   return (
-    <ProjectsWrapper>
+    <ProjectsWrapper id="works">
       <Project
         image={audiophile}
         name={"An Ecommerce Website"}

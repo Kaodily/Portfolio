@@ -5,7 +5,7 @@ import Socials from "../utils/Socials";
 
 const Contact = () => {
   return (
-    <ContactWrapper>
+    <ContactWrapper id="contact">
       <img src={contact} alt="" />
       <FormWrapper>
         <h3>Work With Me!</h3>

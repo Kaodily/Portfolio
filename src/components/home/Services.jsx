@@ -5,7 +5,7 @@ import { ServiceWrapper } from "../../styles/componentsStyles/services.styled";
 const Services = () => {
   const service = ["Development", "Technical Writing", "Content & SEO"];
   return (
-    <ServiceWrapper>
+    <ServiceWrapper id="services">
       <div className="service_container">
         <div>
           <h3>My Service</h3>

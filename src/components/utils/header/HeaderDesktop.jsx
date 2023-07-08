@@ -1,14 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { HeaderDesktopWrapper } from "../../../styles/header.styled";
-// import { MdDarkMode, MdLightMode } from "react-icons/md";
+import { NavHashLink as Link } from "react-router-hash-link";
 
 const HeaderDesktop = () => {
   const links = [
-    { name: "About", link: "/about" },
-    { name: "Skills", link: "/skills" },
-    { name: "Works", link: "/works" },
-    { name: "Contact", link: "/contact" },
+    { name: "About", link: "#about" },
+    { name: "Services", link: "#services" },
+    { name: "Works", link: "#works" },
+    { name: "Contact", link: "#contact" },
   ];
   return (
     <HeaderDesktopWrapper>
@@ -16,7 +16,12 @@ const HeaderDesktop = () => {
         {links.map((link, index) => {
           return (
             <li key={index}>
-              <Link to={link.link} key={index}>
+              <Link
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+                smooth
+                to={link.link}
+                key={index}>
                 {link.name}
               </Link>
             </li>

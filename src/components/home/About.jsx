@@ -4,7 +4,7 @@ import { AboutWrapper } from "../../styles/componentsStyles/about.styled";
 import Button from "../utils/Button";
 const About = () => {
   return (
-    <AboutWrapper>
+    <AboutWrapper id="about">
       <div className="hero_about">
         <p> Hello there 👋 </p>
         <h1>

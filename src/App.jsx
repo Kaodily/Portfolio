@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import Portfolio from './components/Portfolio'
+import { useState } from "react";
+import "./App.css";
+import Portfolio from "./components/Portfolio";
+// import { Route, Routes } from "react-router";
+// import About from "./components/home/About";
+import { Route, Routes } from "react-router";
+import About from "./components/home/About";
+import Contact from "./components/home/Contact";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <Portfolio />
+     <Portfolio />                 
     </>
-  )
+  );
 }
 
-export default App
+export default App;
