@@ -1,26 +1,20 @@
 import React from "react";
 import contact from "../../assets/contact.jpg";
-import { ContactWrapper, FormWrapper } from "../../styles/componentsStyles/contact.styled";
+import { ContactWrapper } from "../../styles/componentsStyles/contact.styled";
 import Socials from "../utils/Socials";
+import Form from "../utils/Form";
 
 const Contact = () => {
   return (
     <ContactWrapper id="contact">
-      <img src={contact} alt="" />
-      <FormWrapper>
+      <div>
+        <img src={contact} alt="" />
+      </div>
+      <div>
         <h3>Work With Me!</h3>
-        <p>Let's Connect and Discuss your WebDesign Project Today!</p>
-        <div className="social">
-          <Socials />
-        </div>
-        <form>
-            <div className="flex_input">
-                <input type="text" placeholder="Name" /> <br />
-                <input type="email" placeholder="Email" />
-            </div>
-            <textarea placeholder="Message" ></textarea>
-        </form>
-      </FormWrapper>
+        <p>Let's Connect and Discuss your Web Design Project Today!</p>
+        <Form />
+      </div>
     </ContactWrapper>
   );
 };

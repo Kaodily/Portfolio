@@ -5,36 +5,44 @@ import country from "../../../assets/country.png";
 import starfinder from "../../../assets/starfinder.png";
 import rock from "../../../assets/rock-paper-scissors.png";
 import portfolio from "../../../assets/portfolio.png";
-import task from '../../../assets/task-manager.png'
+import task from "../../../assets/task-manager.png";
 import { ProjectsWrapper } from "../../../styles/componentsStyles/project.styled";
 const Projects = () => {
   return (
     <ProjectsWrapper id="works">
-      <Project
+      <div className="heading">
+        <h3>My Work</h3>
+        <p>
+          I've been busy past few years, working on some of the best projects.
+          Here's a Glimpse!
+        </p>
+      </div>
+    <div className="grid_container">
+    <Project
         image={audiophile}
         name={"An Ecommerce Website"}
         live={"https://audiophile-kaodily.netlify.app/"}
         github={"https://github.com/Kaodily/Audiophile"}
         description={
-          "An e-commerce app comes with a built-in cart and checkout feature, providing you with a seamless  shopping experience. Easily add items to your cart, review your selections, and securely checkout with just a few taps."
+          "An e-commerce app comes with a built-in cart and checkout"
         }
       />
       <Project
         image={starfinder}
-        name={"STARFINDER"}
+        name={"A VIP Notification Website"}
         live={"https://starfinder.dev/"}
         github={"https://github.com/workshopapps/vipcustomer.web"}
         description={
-          "An app that offers a VIP notification feature that alerts you when a high-profile user engages with your app. This valuable feature allows you to keep track of VIP activity and respond promptly to their needs, enhancing the overall user experience. "
+          "An app that offers a VIP notification feature that alerts you   "
         }
       />
       <Project
         image={task}
-        name={"STARFINDER"}
+        name={"A Task Manager Website"}
         live={"https://starfinder.dev/"}
         github={"https://github.com/workshopapps/vipcustomer.web"}
         description={
-          "An app that offers a VIP notification feature that alerts you when a high-profile user engages with your app. This valuable feature allows you to keep track of VIP activity and respond promptly to their needs, enhancing the overall user experience. "
+          "An app that offers a VIP notification feature that alerts you. "
         }
       />
       <Project
@@ -43,7 +51,7 @@ const Projects = () => {
         live={"https://rest-api-kaodily.netlify.app/"}
         github={"https://github.com/Kaodily/Rest-Api"}
         description={
-          "This app provides details about all the countries in the world, their population and language"
+          "This app provides details about all the countries in the world,"
         }
       />
       <Project
@@ -52,7 +60,7 @@ const Projects = () => {
         live={"https://rock-paper-scissors-kaodily.netlify.app"}
         github={"https://github.com/Kaodily/Rock-paper-scissors"}
         description={
-          "This app provides details about all the countries in the world, their population and language"
+          "This app provides details about all the countries in the world"
         }
       />
       <Project
@@ -61,18 +69,10 @@ const Projects = () => {
         live={"https://kaodili.netlify.app"}
         github={"https://github.com/Kaodily/Rock-paper-scissors"}
         description={
-          "This app provides details about all the countries in the world, their population and language"
+          "This app provides details about all the countries in the world"
         }
       />
-      <Project
-        image={portfolio}
-        name={"Portfolio"}
-        live={"https://kaodili.netlify.app"}
-        github={"https://github.com/Kaodily/Rock-paper-scissors"}
-        description={
-          "This app provides details about all the countries in the world, their population and language"
-        }
-      />
+    </div>
     </ProjectsWrapper>
   );
 };

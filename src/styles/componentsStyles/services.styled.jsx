@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const ServiceWrapper = styled.section`
   margin-top: 100px;
-  padding: 50px 30px;
+  padding: 50px 25px;
   background-color: #adc0d319;
   h3 {
     font-family: "Space Grotesk", sans-serif;
     margin-bottom: 10px;
+    font-size: 25px;
   }
   p {
     padding-right: 20px;
@@ -16,12 +17,12 @@ export const ServiceWrapper = styled.section`
   .flex_container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     flex-wrap: wrap;
   }
 
   .flex_item {
-    width: 100%;
+    width: 95%;
     height: 70px;
     background-color: white;
     display: flex;

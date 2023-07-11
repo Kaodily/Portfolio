@@ -8,7 +8,7 @@ export const AboutWrapper = styled.section`
     padding: 20px 0;
   }
   .hero_about {
-    padding: 50px 20px;
+    padding: 50px 25px;
   }
 
   .about {
@@ -37,7 +37,7 @@ export const AboutWrapper = styled.section`
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 60px 20px;
+    padding: 60px 25px;
 
     .hero_img {
       position: absolute;

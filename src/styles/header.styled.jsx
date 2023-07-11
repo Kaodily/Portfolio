@@ -4,7 +4,7 @@ export const HeaderWrapper = styled.header`
   background-color: white;
   position: sticky;
   top: 0;
-  padding: 0 20px;
+  padding: 0 25px;
   z-index: 1;
   box-shadow: 1px 11px 72px -22px rgba(38, 38, 38, 0.65);
 

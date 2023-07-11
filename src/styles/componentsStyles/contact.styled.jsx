@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.section`
-  margin-top: 100px;
-  padding: 50px 30px;
+  margin-top: 50px;
+  padding: 50px 25px;
   background-color: #adc0d319;
   display: grid;
   justify-content: center;
 
   h3 {
     font-family: "Space Grotesk", sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-size: 25px;
   }
   p {
-    padding-right: 20px;
+    padding:5px 0;
     color: #828fa3;
     line-height: 25px;
   }
@@ -23,7 +24,6 @@ export const ContactWrapper = styled.section`
   }
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
-    padding: 50px 80px;
     gap: 30px;
   }
   @media (min-width: 820px) {
@@ -33,44 +33,5 @@ export const ContactWrapper = styled.section`
   @media (min-width: 1028px) {
     padding: 50px 110px;
     gap: 30px;
-  }
-`;
-export const FormWrapper = styled.div`
-    .flex_input {
-      margin: 10px 0;
-    }
-  .flex_input input {
-    width: 100%;
-    height: 50px;
-    padding: 15px;
-    border: none;
-    margin-bottom: 20px;
-    border-radius: 3px;
-  }
-  textarea {
-    width: 100%;
-    height: 150px;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
-  }
-  @media (min-width: 768px) {
-    .flex_input {
-      display: flex;
-      gap: 10px;
-      margin: 20px 0;
-    }
-  }
-  .flex_input input {
-    /* width: 150px; */
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
-  }
-  textarea {
-    height: 150px;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
   }
 `;
