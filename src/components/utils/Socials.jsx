@@ -5,9 +5,15 @@ import { SocialWrapper } from "../../styles/socials.styled";
 const Socials = () => {
   return (
     <SocialWrapper>
-      <FaGithub fontSize='20px' />
-      <FaLinkedin fontSize='20px' />
-      <FaTwitter fontSize='20px' />
+      <div  className="icon_container">
+        <FaGithub fontSize="20px" />
+      </div>
+      <div className="icon_container">
+        <FaLinkedin fontSize="20px" />
+      </div>
+      <div className="icon_container">
+        <FaTwitter fontSize="20px" />
+      </div>
     </SocialWrapper>
   );
 };

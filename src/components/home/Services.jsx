@@ -1,9 +1,10 @@
 import React from "react";
 import Button from "../utils/Button";
+import image from '../../assets/contact.jpg'
 import { ServiceWrapper } from "../../styles/componentsStyles/services.styled";
 
 const Services = () => {
-  const service = ["Development", "Technical Writing", "Content & SEO"];
+  const service = ["Development", "Technical Writing", "Web Maintenace"];
   return (
     <ServiceWrapper id="services">
       <div className="service_container">
@@ -16,14 +17,19 @@ const Services = () => {
         </div>
         <Button content={"Get Started"} />
       </div>
-      <div className="flex_container">
-        {service.map((item, index) => {
+      <div className="grid_container">
+      <div>
+      {service.map((item, index) => {
           return (
-            <div className="flex_item" key={index}>
-              <p>{item}</p>
+            <div className="grid_item" key={index}>
+              <h4>{item}</h4>
             </div>
           );
         })}
+      </div>
+      <div>
+        <img w src={image} alt="" />
+      </div>
       </div>
     </ServiceWrapper>
   );

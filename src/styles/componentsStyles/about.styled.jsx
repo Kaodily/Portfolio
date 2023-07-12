@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const AboutWrapper = styled.section`
   h1 {
-    font-family: "Space Grotesk", sans-serif;
     letter-spacing: 1px;
     line-height: 35px;
     padding: 20px 0;
@@ -14,6 +13,9 @@ export const AboutWrapper = styled.section`
   .about {
     color: #828fa3;
     line-height: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 30px;
   }
   img {
     width: 100%;
@@ -48,7 +50,7 @@ export const AboutWrapper = styled.section`
       width: 300px;
     }
     .hero_about {
-      padding: 10px 20px;
+      padding: 10px;
     }
     .square_background {
       width: 23rem;

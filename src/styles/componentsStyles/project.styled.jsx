@@ -1,15 +1,11 @@
 import styled from "styled-components";
 
 export const ProjectsWrapper = styled.section`
-  margin-top: 40px;
-
+  padding: 50px 25px;
   .grid_container {
     display: grid;
     justify-content: center;
   }
-  .heading {
-      padding: 20px 0 0 25px;
-    }
 
   h3 {
     font-family: "Space Grotesk", sans-serif;
@@ -17,14 +13,14 @@ export const ProjectsWrapper = styled.section`
     font-size: 25px;
   }
   p {
-    color: #828fa3;
     line-height: 25px;
-    padding: 10px 30px 0 0;
+    font-weight: 300;
+    font-size: 14px;
   }
   @media (min-width: 768px) {
     .grid_container {
       grid-template-columns: repeat(2, 340px);
-      gap: 30px;
+      gap: 20px;
     }
     .heading {
       padding: 20px 0 0 25px;
@@ -44,10 +40,11 @@ export const ProjectsWrapper = styled.section`
   }
 `;
 export const ProjectWrapper = styled.article`
-  width: 75%;
+  width: 100%;
   padding: 20px;
-  margin: 30px auto;
+  margin: 30px 0;
   background-color: #adc0d319;
+  border-radius: 8px;
   h4 {
     font-size: 18px;
   }
@@ -57,7 +54,7 @@ export const ProjectWrapper = styled.article`
   }
   img {
     width: 100%;
-    border-radius: 3px;
+    border-radius: 6px;
     margin-bottom: 20px;
   }
   @media (min-width: 768px) {

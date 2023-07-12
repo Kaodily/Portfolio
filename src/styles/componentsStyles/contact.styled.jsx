@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.section`
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 50px 25px;
   background-color: #adc0d319;
   display: grid;
@@ -14,8 +14,9 @@ export const ContactWrapper = styled.section`
   }
   p {
     padding:5px 0;
-    color: #828fa3;
     line-height: 25px;
+    font-weight: 300;
+    font-size: 14px;
   }
   img {
     width: 100%;

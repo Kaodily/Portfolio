@@ -13,13 +13,15 @@ export const FormWrapper = styled.div`
     border: none;
     margin-bottom: 10px;
     border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.04);
   }
   textarea {
     width: 100%;
     height: 150px;
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.04);
   }
   button {
     width: 100%;

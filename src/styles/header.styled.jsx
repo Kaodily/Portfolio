@@ -14,11 +14,13 @@ export const HeaderWrapper = styled.header`
     justify-content: space-between;
     align-items: center;
   }
-  .logo {
-    font-family: "Bruno Ace", cursive;
+  .logo{
+    font-size: 20px;;
+    font-weight: 600;
   }
+
   @media (min-width: 768px) {
-    padding: 0 40px;
+    padding: 0 25px;
     .hamburger {
       display: none;
     }
@@ -35,11 +37,12 @@ export const HeaderDesktopWrapper = styled.div`
       margin-top: 5px;
     }
     li {
-      margin-right: 15px;
+      margin-left: 20px;
     }
     a {
       text-decoration: none;
       color: black;
+      font-weight: 300;
     }
   }
 `;

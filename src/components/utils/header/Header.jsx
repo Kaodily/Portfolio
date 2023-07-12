@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <HeaderWrapper>
      <nav className="nav_bar">
-       <h3 className="logo">Kaodili</h3>
+       <p className="logo">Kaodili</p>
       <div className="hamburger">
         <RxHamburgerMenu fontSize="1.8em" />
       </div>
