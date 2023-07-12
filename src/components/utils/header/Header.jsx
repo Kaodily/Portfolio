@@ -7,13 +7,13 @@ import { HeaderWrapper } from "../../../styles/header.styled";
 const Header = () => {
   return (
     <HeaderWrapper>
-     <nav className="nav_bar">
-       <p className="logo">Kaodili</p>
-      <div className="hamburger">
-        <RxHamburgerMenu fontSize="1.8em" />
-      </div>
-      <HeaderDesktop />
-     </nav>
+      <nav className="nav_bar">
+        <p className="logo">Kaodili</p>
+        <div className="hamburger">
+          <RxHamburgerMenu fontSize="1.8em" />
+        </div>
+        <HeaderDesktop />
+      </nav>
     </HeaderWrapper>
   );
 };

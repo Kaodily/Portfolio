@@ -1,15 +1,13 @@
 import React from "react";
-import { ButtonStyled, ButtonWrapper } from "../../styles/button.styled";
+import { HashLink as Link } from "react-router-hash-link";
+import { ButtonWrapper } from "../../styles/button.styled";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-
-const Button = ({content}) => {
+const Button = ({ content, link }) => {
   return (
     <ButtonWrapper>
-      <ButtonStyled>
-        {content}
-        <FaLongArrowAltRight />
-      </ButtonStyled>
+      <Link className="link" to={`${link}`} smooth>{content}</Link>
+      <FaLongArrowAltRight />
     </ButtonWrapper>
   );
 };

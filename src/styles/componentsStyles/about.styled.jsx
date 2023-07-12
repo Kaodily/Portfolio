@@ -59,20 +59,28 @@ export const AboutWrapper = styled.section`
     }
   }
   @media (min-width: 1024px) {
-    padding: 80px;
+    padding: 80px 100px;
+    grid-template-columns: 1fr 350px;
+    gap: 20px;
+
     .square_background {
-      width: 27rem;
+      width: 25rem;
       height: 25rem;
-      background-color: #a6897611;
-      margin: 20px auto;
+      margin: 20px 0 20px 10px;
     }
     .hero_img {
-      position: absolute;
-      top: 200px;
-      right: 80px;
+      right: 65px;
     }
     .hero_about {
-      padding: 50px 20px;
+      padding: 50px 0;
+    }
+  }
+  @media (min-width: 1280px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    .square_background {
+      width: 27rem;
+     
     }
   }
 `;

@@ -10,8 +10,8 @@ const Form = () => {
       </div>
       <form>
         <div className="flex_input">
-          <input type="text" placeholder="Name" /> <br />
-          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Name" required/> <br />
+          <input type="email" placeholder="Email" required />
         </div>
         <textarea placeholder="Message"></textarea>
         <button>Send Message</button>

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonWrapper = styled.div``;
-export const ButtonStyled = styled.button`
+export const ButtonWrapper = styled.button`
   width: 150px;
   height: 50px;
   background-color: yellow;
@@ -14,4 +13,8 @@ export const ButtonStyled = styled.button`
   align-items: center;
   margin-top: 15px;
   gap: 5px;
+  .link {
+    text-decoration: none;
+    color: white;
+  }
 `;

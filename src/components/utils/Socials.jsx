@@ -5,15 +5,19 @@ import { SocialWrapper } from "../../styles/socials.styled";
 const Socials = () => {
   return (
     <SocialWrapper>
-      <div  className="icon_container">
+      <a
+        href="https://github.com/Kaodily"
+        target="_blank"
+        rel="noreferrer"
+        className="icon_container">
         <FaGithub fontSize="20px" />
-      </div>
-      <div className="icon_container">
+      </a>
+      <a href="https://www.linkedin.com/in/chika-isizoh" className="icon_container" target="_blank" rel="noreferrer">
         <FaLinkedin fontSize="20px" />
-      </div>
-      <div className="icon_container">
+      </a>
+      <a href="https://twitter.com/ka_odily" className="icon_container" target="_blank" rel="noreferrer">
         <FaTwitter fontSize="20px" />
-      </div>
+      </a>
     </SocialWrapper>
   );
 };

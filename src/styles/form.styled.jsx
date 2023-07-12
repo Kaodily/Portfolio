@@ -38,5 +38,13 @@ export const FormWrapper = styled.div`
       display: flex;
       gap: 10px;
     }
+    textarea {
+      height: 155px;
+    }
+  }
+  @media (min-width: 1024px) {
+    textarea {
+      height: 180px;
+    }
   }
 `;

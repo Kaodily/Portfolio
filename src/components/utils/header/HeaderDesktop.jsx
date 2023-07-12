@@ -17,10 +17,10 @@ const HeaderDesktop = () => {
           return (
             <li key={index}>
               <Link
-            activeClassName="selected"
-            activeStyle={{ color: 'red' }}
+                activeClassName="selected"
+                activeStyle={{ color: "red" }}
                 smooth
-                to={link.link}
+                to={`/url/${link.link}`}
                 key={index}>
                 {link.name}
               </Link>

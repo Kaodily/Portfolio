@@ -18,7 +18,7 @@ const About = () => {
           staring at the cereal aisle, don't worry, I'm just trying to optimize
           my breakfast routine!"
         </p>
-        <Button content={"See Works"} />
+        <Button content={"See Works"} link={"#works"} />
       </div>
       <div className="square_background">
         <div className="hero_img">

@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../utils/Button";
-import image from '../../assets/contact.jpg'
+import image from "../../assets/contact.jpg";
 import { ServiceWrapper } from "../../styles/componentsStyles/services.styled";
 
 const Services = () => {
@@ -15,21 +15,21 @@ const Services = () => {
             Proceed.
           </p>
         </div>
-        <Button content={"Get Started"} />
+        <Button content={"Get Started"} link={"#contact"} />
       </div>
       <div className="grid_container">
-      <div>
-      {service.map((item, index) => {
-          return (
-            <div className="grid_item" key={index}>
-              <h4>{item}</h4>
-            </div>
-          );
-        })}
-      </div>
-      <div>
-        <img w src={image} alt="" />
-      </div>
+        <div>
+          {service.map((item, index) => {
+            return (
+              <div className="grid_item" key={index}>
+                <h4>{item}</h4>
+              </div>
+            );
+          })}
+        </div>
+        <div>
+          <img src={image} alt="" />
+        </div>
       </div>
     </ServiceWrapper>
   );

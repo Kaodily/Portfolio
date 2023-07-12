@@ -34,13 +34,14 @@ export const ServiceWrapper = styled.section`
   }
   .grid_item:hover {
     background-color: black;
+    color: white;
   }
   img {
     display: none;
   }
 
   @media (min-width: 768px) {
-    padding: 50px;
+    padding: 50px 35px;
     margin-top: 40px;
     .service_container {
       display: flex;
@@ -50,9 +51,6 @@ export const ServiceWrapper = styled.section`
     .service_paragraph {
       padding: 0 150px 0 0;
     }
-    /* .grid_item {
-      width: 10;
-    } */
 
     .grid_container {
       display: grid;
@@ -62,14 +60,15 @@ export const ServiceWrapper = styled.section`
     img {
       width: 100%;
       display: flex;
-      height: 300px;
-      object-fit: scale-down;
+      height: 250px;
+      object-fit: cover;
+      margin-top: 20px;
     }
   }
 
   @media (min-width: 1024px) {
     margin-top: 0;
-    padding: 50px 60px 50px 100px;
+    padding: 80px 100px;
     .flex_item {
       width: 250px;
     }

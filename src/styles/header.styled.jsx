@@ -14,13 +14,13 @@ export const HeaderWrapper = styled.header`
     justify-content: space-between;
     align-items: center;
   }
-  .logo{
-    font-size: 20px;;
+  .logo {
+    font-size: 20px;
     font-weight: 600;
   }
 
   @media (min-width: 768px) {
-    padding: 0 25px;
+    padding: 0 35px;
     .hamburger {
       display: none;
     }
