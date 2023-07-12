@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../utils/Button";
-import image from "../../assets/contact.jpg";
+import image from "../../assets/service.jpg";
 import { ServiceWrapper } from "../../styles/componentsStyles/services.styled";
 
 const Services = () => {
