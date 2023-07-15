@@ -50,7 +50,7 @@ export const AboutWrapper = styled.section`
       width: 300px;
     }
     .hero_about {
-      padding: 10px;
+      padding: 50px 10px;
     }
     .square_background {
       width: 23rem;
