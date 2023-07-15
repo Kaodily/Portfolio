@@ -1,15 +1,30 @@
-import React, { createContext, useContext, useReducer } from "react";
-import { reducer } from "../reducer/Reducer";
-
+import React, { createContext, useContext, useState } from "react";
 const Context = createContext();
-const initalState = {
-  name: "chika",
-};
 
 const AppContext = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, initalState);
+  const [modal, setModal] = useState(false);
+  const [animate, setAnimate] = useState("");
 
-  return <Context.Provider value={{ ...state }}>{children}</Context.Provider>;
+  const openModal = () => {
+    setModal(true);
+    setAnimate("animate__slideInDown");
+    window.scrollTo(0, 0);
+    if (typeof window != "undefined" && window.document) {
+      document.body.style.overflow = "hidden";
+    }
+  };
+
+  const closeModal = () => {
+    // setAnimate("animate__slideInDown");
+    setModal(false);
+    document.body.style.overflow = "unset";
+  };
+
+  return (
+    <Context.Provider value={{ modal, animate,  openModal, closeModal }}>
+      {children}
+    </Context.Provider>
+  );
 };
 
 export const Store = () => useContext(Context);

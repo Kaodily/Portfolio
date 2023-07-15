@@ -1,6 +1,6 @@
 export const reducer = (state, action) => {
      switch(action.type){
-        case 'Name' :
+        case 'Modal' :
             console.log('hello')
      }
 }
