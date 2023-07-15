@@ -63,7 +63,7 @@ const Projects = () => {
           name={"Portfolio Website"}
           live={"https://kaodili.netlify.app"}
           description={
-            "A portfolio website to showcase the work and service of a frontend developer"
+            "A portfolio website to showcase the work and services of a frontend developer"
           }
         />
       </div>
