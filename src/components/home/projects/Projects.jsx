@@ -13,17 +13,17 @@ const Projects = () => {
       <div className="heading">
         <h3>My Work</h3>
         <p>
-          I've been busy past few years, working on some of the best projects.
+          I've been busy for the past few years, working on some of the best projects.
           Here's a Glimpse!
         </p>
       </div>
       <div className="grid_container">
         <Project
           image={audiophile}
-          name={"An Ecommerce Website"}
+          name={"An E-commerce Website"}
           live={"https://audiophile-kaodily.netlify.app/"}
           description={
-            "An e-commerce app comes with a built-in cart and checkout."
+            "An e-commerce app, comes with a built-in cart and checkout."
           }
         />
         <Project
@@ -47,7 +47,7 @@ const Projects = () => {
           name={"Find Country Website"}
           live={"https://rest-api-kaodily.netlify.app/"}
           description={
-            "This app provides details about all the countries in the world, population and flags."
+            "This app provides details about all the countries in the world, their population and flags."
           }
         />
         <Project

@@ -8,8 +8,7 @@ const About = () => {
       <div className="hero_about">
         <p> Hello there 👋 </p>
         <h1>
-          My name is Chika, and I’m a Web Designer with a Strong Sense of Humor
-          and Creative Expertise!
+          My name is Chika Isizoh, Welcome to My Page
         </h1>
         <p className="about">
           I am a frontend developer with a passion for crafting visually
