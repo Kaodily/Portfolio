@@ -31,7 +31,7 @@ const Projects = () => {
           name={"A VIP Notification Website"}
           live={"https://starfinder.dev/"}
           description={
-            "An app that offers a VIP notification feature that alerts you. "
+            "An app that offers a VIP notification feature that alerts you when a VIP visits your app. "
           }
         />
         <Project
