@@ -4,7 +4,7 @@ import image from "../../assets/service.jpg";
 import { ServiceWrapper } from "../../styles/componentsStyles/services.styled";
 
 const Services = () => {
-  const service = ["Development", "Technical Writing", "Web Maintenace"];
+  const service = ["Development", "Technical Writing", "Web Maintenance"];
   return (
     <ServiceWrapper id="services">
       <div className="service_container">
