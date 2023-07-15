@@ -6,7 +6,7 @@ export const ModalWrapper = styled.section`
     height: 300px;
     background-color: white;
     position: absolute;
-    top: 70px;
+    top: 10px;
     padding-top: 50px;
     box-shadow: 1px 11px 72px -22px rgba(38, 38, 38, 0.65);
     z-index: 1000;
@@ -18,6 +18,7 @@ export const ModalWrapper = styled.section`
     
   }
   ul {
+    list-style: none;
     text-align: center;
   }
   li {
