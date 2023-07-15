@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
       <div>
         <h3>Work With Me!</h3>
-        <p>Let's Connect and Discuss your Web Design Project Today!</p>
+        <p>Let's Connect and Discuss your Web Development Project Today!</p>
         <Form />
       </div>
     </ContactWrapper>

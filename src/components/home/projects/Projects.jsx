@@ -23,7 +23,7 @@ const Projects = () => {
           name={"An Ecommerce Website"}
           live={"https://audiophile-kaodily.netlify.app/"}
           description={
-            "An e-commerce app comes with a built-in cart and checkout"
+            "An e-commerce app comes with a built-in cart and checkout."
           }
         />
         <Project
@@ -31,7 +31,7 @@ const Projects = () => {
           name={"A VIP Notification Website"}
           live={"https://starfinder.dev/"}
           description={
-            "An app that offers a VIP notification feature that alerts you   "
+            "An app that offers a VIP notification feature that alerts you. "
           }
         />
         <Project
@@ -39,15 +39,15 @@ const Projects = () => {
           name={"A Task Manager Website"}
           live={"https://task-manager-kaodily.netlify.app/"}
           description={
-            "An app that offers a VIP notification feature that alerts you. "
+            "A Task manager Website that helps you manage your tasks. "
           }
         />
         <Project
           image={country}
-          name={"WHERE IN THE WORLD"}
+          name={"Find Country Website"}
           live={"https://rest-api-kaodily.netlify.app/"}
           description={
-            "This app provides details about all the countries in the world,"
+            "This app provides details about all the countries in the world, population and flags."
           }
         />
         <Project
@@ -55,15 +55,15 @@ const Projects = () => {
           name={"Rock Paper Scissors"}
           live={"https://rock-paper-scissors-kaodily.netlify.app"}
           description={
-            "This app provides details about all the countries in the world"
+            "A rock paper and scissors game website with an extra spice to it."
           }
         />
         <Project
           image={portfolio}
-          name={"Portfolio"}
+          name={"Portfolio Website"}
           live={"https://kaodili.netlify.app"}
           description={
-            "This app provides details about all the countries in the world"
+            "A portfolio website to showcase the work and service of a frontend developer"
           }
         />
       </div>
