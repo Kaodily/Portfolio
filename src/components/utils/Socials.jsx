@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { AiTwotoneMail} from "react-icons/ai";
 import { SocialWrapper } from "../../styles/socials.styled";
 
 const Socials = () => {
@@ -17,6 +18,9 @@ const Socials = () => {
       </a>
       <a href="https://twitter.com/ka_odily" className="icon_container" target="_blank" rel="noreferrer">
         <FaTwitter fontSize="20px" />
+      </a>
+      <a href="mailto:chikaodiliisizoh@gmail.com" className="icon_container" target="_blank" rel="noreferrer">
+        <AiTwotoneMail fontSize="20px" />
       </a>
     </SocialWrapper>
   );
