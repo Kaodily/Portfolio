@@ -11,7 +11,6 @@ export const AboutWrapper = styled.section`
   }
 
   .about {
-    color: #828fa3;
     line-height: 30px;
     font-size: 14px;
     font-weight: 300;
